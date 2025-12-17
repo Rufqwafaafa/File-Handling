@@ -1,0 +1,10 @@
+file = open('sample_doc.txt', 'r')
+print(file.read())
+
+#file = open('sample_doc2.txt', 'w')
+#file.write("Cancer is a complex group of more than 100 diseases characterized by the uncontrolled growth and spread of abnormal cells in the body. It begins when the genetic instructions (DNA) within a cell become damaged or mutated, causing the cell to ignore natural signals to stop dividing or to die. Over time, these rapidly multiplying cells can form a mass called a tumor, which may be benign (non-cancerous) or malignant (cancerous). Malignant tumors are particularly dangerous because they can invade nearby tissues and undergo metastasis, a process where cancer cells enter the bloodstream or lymphatic system to start new tumors in distant organs. While approximately 5% to 10% of cases are linked to inherited genetics, the majority are caused by acquired mutations from environmental factors like tobacco use, radiation, and certain viruses, or simply by random errors that occur as cells divide over a lifetime.")
+
+
+file = open('sample_doc.txt', 'a')
+file.write("Drinking water is fundamental to human health because it acts as the primary fuel for almost every biological process, from cellular repair to temperature regulation. Since the human body is approximately 60% water, staying hydrated is essential for maintaining blood volume, which allows the heart to pump oxygen-rich blood to the brain and muscles with less effort. Research indicates that even mild dehydration—a loss of just 2 percent of the body's water content—can lead to impaired memory, and increased fatigue. Beyond cognitive benefits, consistent water intake lubricates joints, cushions the spinal cord, and aids the kidneys in flushing out waste products. While the old eight glasses a day rule is a helpful baseline, actual needs vary based on activity level and climate; a more accurate indicator of proper hydration is often the color of your urine, which should ideally be a pale, straw-like yellow.")
+file.close()
